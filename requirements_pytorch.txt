@@ -1,0 +1,12 @@
+# PyTorch Haiku RNN Dependencies
+# Install with: pip install -r requirements_pytorch.txt
+
+# PyTorch 2.5+ (latest stable as of Jan 2025)
+# For M1/M2/M3 Mac (MPS backend):
+#   pip install torch torchvision torchaudio
+# For CUDA:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+
+# NumPy for array operations
+numpy>=1.24.0
